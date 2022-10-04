@@ -63,12 +63,6 @@ end
 
 class NhanVien < CanBo
   attr_accessor :congviec
-    
-       #def Nhap_Congviec(Congviec)
-         # @Congviec= Congviec
-        #end
-      
-      
         def show
           super
           puts "Tên Cv: #{congviec}"
@@ -77,12 +71,6 @@ end
 
 #Quan ly can bo
 system("cls")
-Mangcn= []
-Mangks= []
-Mangnv =[]
-i=0
-j=0
-k=0
 puts "Chọn đối tượng : "
 puts "1.công nhân: "
 puts "2. kỹ sư: "
